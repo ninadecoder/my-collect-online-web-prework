@@ -5,7 +5,7 @@ def my_collect(arr)
   while count < size
     ele = arr[count]
     arr2 = yield(ele)
-    puts arr2
+    return arr2
     count += 1
   end
 end
