@@ -4,9 +4,8 @@ def my_collect(arr)
 
   while count < size
     ele = arr[count]
-    yield(ele)
-    count += 1 
+    arr2 = yield(ele)
+    puts arr2
+    count += 1
   end
-  return arr
 end
-
